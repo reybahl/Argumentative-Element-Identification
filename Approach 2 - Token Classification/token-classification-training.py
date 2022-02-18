@@ -21,7 +21,7 @@ train_dataset = Dataset.from_pandas(train_df)
 train_dataset = train_dataset.train_test_split(test_size=0.1) #Train-val split
 
 
-tokenizer = AutoTokenizer.from_pretrained("../longformer", add_prefix_space=True)
+tokenizer = AutoTokenizer.from_pretrained("allenai/longformer-base-4096", add_prefix_space=True)
 
 discourse_types = ["O", 
     "B-Position",
