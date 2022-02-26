@@ -1,1 +1,0 @@
-This approach learns from sentences that have a corresponding label in the training set. For each sentence in the testing data, the model classifiies which discourse type it likely is. The model used is a Support Vector Machine (SVM) Model and input tokens are vectorized using Tf-idf vectorizer.
