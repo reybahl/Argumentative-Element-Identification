@@ -1,1 +1,0 @@
-This is a token classification (NER) approach. A longformer (Long document transformer) is trained for this task using the HuggingFace Python library

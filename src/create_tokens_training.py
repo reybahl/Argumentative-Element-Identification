@@ -1,11 +1,10 @@
 #Import required libraries
 
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import os  # Traversing files
 
-import os #Traversing files
-
-from tqdm import tqdm #Checking progress
+import numpy as np  # linear algebra
+import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
+from tqdm import tqdm  # Checking progress
 
 train_df = pd.read_csv("../dataset/train.csv") #Read the training csv file
 

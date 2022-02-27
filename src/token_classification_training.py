@@ -9,7 +9,6 @@ from transformers import (AutoModelForTokenClassification, AutoTokenizer,
                           DataCollatorForTokenClassification, Trainer,
                           TrainingArguments)
 
-
 train_tokens_df = pd.read_csv("text.txt", sep="\n", header= None, names=["Tokens"], quoting=csv.QUOTE_NONE)
 train_labels_df = pd.read_csv("labels.txt", sep="\n", header= None, names=["Labels"], quoting = csv.QUOTE_NONE)
 

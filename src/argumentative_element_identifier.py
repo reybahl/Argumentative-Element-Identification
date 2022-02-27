@@ -1,12 +1,11 @@
 import csv
 import os
 
-import nltk
 import numpy as np  # linear algebra
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 import torch
-from tqdm import tqdm
 from datasets import Dataset
+from tqdm import tqdm
 from transformers import (AutoModelForTokenClassification, AutoTokenizer,
                           DataCollatorForTokenClassification, Trainer,
                           TrainingArguments)
