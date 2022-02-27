@@ -1,7 +1,7 @@
 ## Overview
 Given an essay, this project uses machine learning and token classification to separate the essay into distinct argumentative elements (eg. Claim, Evidence, Counterclaim, etc.)
 
-This is a token classification (NER) approach. A longformer (Long document transformer) is trained for this task using the HuggingFace Python library.
+This is a token classification (NER) approach. A longformer (Long-Document transformer) is trained for this task using the HuggingFace Python library.
 
 ## Dataset
 The dataset can be downloaded from Kaggle - https://www.kaggle.com/c/feedback-prize-2021/data. Save the dataset in a directory called "dataset". The code accesses the data in that directory.
